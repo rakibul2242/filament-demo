@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Filament\Resources\CastomResource\Pages;
+namespace App\Filament\Resources\DemoResource\Pages;
 
-use App\Filament\Resources\CastomResource;
+use App\Filament\Resources\DemoResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
 
-class ListCastoms extends ListRecords
+class ListDemos extends ListRecords
 {
-    protected static string $resource = CastomResource::class;
+    protected static string $resource = DemoResource::class;
 
     protected function getHeaderActions(): array
     {
